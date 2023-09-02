@@ -121,6 +121,7 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button> */}
         </form>
+      <a target="blank" href="https://www.linkedin.com/in/musaddiq-b-914412230/" className="hover:bg-white text-blue-800 font-bold py-2 px-1 rounded-lg">Click Me To Visit My  LinkedIn Profile</a>
       </motion.div>
 
       {/* <motion.div
@@ -129,7 +130,6 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div> */}
-      <a target="blank" href="https://www.linkedin.com/in/musaddiq-b-914412230/">Click Me To Visit My  LinkedIn Profile</a>
     </div>
   );
 };
