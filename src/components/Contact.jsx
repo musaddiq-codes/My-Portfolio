@@ -73,7 +73,7 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <h3 className={styles.sectionHeadText}>Contacts.</h3>
 
         <form
           ref={formRef}
@@ -121,7 +121,7 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button> */}
         </form>
-      <a target="blank" href="https://www.linkedin.com/in/musaddiq-b-914412230/" className="hover:bg-white text-blue-800 font-bold py-2 px-1 rounded-lg">Click Me To Visit My  LinkedIn Profile</a>
+      <a target="blank" href="https://www.linkedin.com/in/musaddiq-b-914412230/" className="hover:bg-white text-blue-800 font-bold py-2 px-1 rounded-lg">Click Here To Visit My  LinkedIn Profile</a>
       </motion.div>
 
       {/* <motion.div
